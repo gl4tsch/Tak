@@ -51,7 +51,7 @@ namespace Tak
             }
             else
             {
-                GD.Print($"Cannot remove {stoneCount} stones from {x},{y}. Not enough stones there.");
+                GD.Print($"Cannot remove {stoneCount} stones from {x},{y}. Not enough stones.");
             }
             return removedStones;
         }
